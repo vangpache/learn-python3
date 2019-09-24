@@ -42,3 +42,6 @@
     --> mylist = [1, 2, 3, 4, 5, 6]
     ```
 1. Objects
+1. Functions and Conditionals
+1. WhiteBoard problem example
+1. Instructions to Install Python3  using Homebrew on Mac osx
