@@ -17,9 +17,21 @@
     ```
     - indices start at 0
     - lists are iterated using 'for' and 'while' loops
+    *ex: for loop (similar to for of loop)*
     ```
-    ex: for loop (similar to for of loop)
             for x in mylist:
                 print(x)
     ```
+    prints: 1, 2, 3, 4, 5
+
+    *ex: while loop*
+    ```
+    count = 0
+    while count < 5:
+        print(count)
+        count += 1
+    ```
+    prints: 0, 1, 2, 3, 4
+
+    - loops can also use 'else', 'break', 'continue'
 1. Objects
