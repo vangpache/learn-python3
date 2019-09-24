@@ -17,6 +17,7 @@
     ```
     - indices start at 0
     - lists are iterated using 'for' and 'while' loops
+    
     *ex: for loop (similar to for of loop)*
     ```
             for x in mylist:
