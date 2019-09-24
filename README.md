@@ -35,7 +35,7 @@
     ```
     prints: 0, 1, 2, 3, 4
 
-#### adding items to a list
+    *adding items to a list*
 
     ```
     mylist.append(6)
