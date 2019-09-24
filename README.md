@@ -8,9 +8,10 @@
     Python3 'lists' are similar to arrays.
     - indices start at 0
     - lists are iterated using 'for' and 'while' loops
+    - loops can also use 'else', 'break', 'continue'
+
+    *ex: myList = [1, 2, 3, 4, 5]*
     ```
-    ex: myList = [1, 2, 3, 4, 5]
-    
     mylist[0] --> 1
     mylist[1] --> 2
     mylist[2] --> 3
@@ -34,9 +35,8 @@
     ```
     prints: 0, 1, 2, 3, 4
 
-### more fun facts:
-    - loops can also use 'else', 'break', 'continue'
-    - adding items to a list
+#### adding items to a list
+
     ```
     mylist.append(6)
     --> mylist = [1, 2, 3, 4, 5, 6]
