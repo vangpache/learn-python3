@@ -4,8 +4,10 @@
 1. Write to console
 
 ## Data Structures and Loops:
-1. Arrays or Lists
+1. Lists
     Python3 'lists' are similar to arrays.
+    - indices start at 0
+    - lists are iterated using 'for' and 'while' loops
     ```
     ex: myList = [1, 2, 3, 4, 5]
     
@@ -15,9 +17,7 @@
     mylist[3] --> 4
     mylist[4] --> 5
     ```
-    - indices start at 0
-    - lists are iterated using 'for' and 'while' loops
-    
+
     *ex: for loop (similar to for of loop)*
     ```
             for x in mylist:
@@ -34,5 +34,11 @@
     ```
     prints: 0, 1, 2, 3, 4
 
+### more fun facts:
     - loops can also use 'else', 'break', 'continue'
+    - adding items to a list
+    ```
+    mylist.append(6)
+    --> mylist = [1, 2, 3, 4, 5, 6]
+    ```
 1. Objects
