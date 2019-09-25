@@ -1,7 +1,20 @@
 # learn-python3
 ## Basic Hello World w/ Variables & Types:
 1. How to make a variable (do variables have types?)
-1. Write to console
+    -Variable naming structure is straight forward.  No special camelcase, or LET/VAR/CONST.  Can not lead with a number (i.e. 1taco).  Variables can be changed at any time.
+
+    first_name = 'Brandon'
+    last_name = 'Wiedemeier'
+    full_name = first_name + ' ' + last_name
+    firstName = 'Larry'
+
+2. Write to console
+    -Writing in the console is super easy.  print is the command.  Can not be capitalized (Print).  Same functionality of console.log but its 'print' instead.
+    Examples:
+        - print(full_name)
+        - print("Hello World")
+        - print("text")
+        - print(variable)
 
 ## Data Structures and Loops:
 #### Lists
