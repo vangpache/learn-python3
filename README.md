@@ -41,7 +41,39 @@
     mylist.append(6)
     --> mylist = [1, 2, 3, 4, 5, 6]
     ```
-1. Objects
-1. Functions and Conditionals
-1. WhiteBoard problem example
-1. Instructions to Install Python3  using Homebrew on Mac osx
+2. Objects
+3. Functions and Conditionals
+
+#Conditional Statement
+num = 7
+if num == 5:
+    print("Number is 5")
+else:
+    if num == 11:
+        print("Number is 11")
+    else:
+        if num == 7:
+            print("Number is 7")
+        else:
+            print("Number isn't 5, 11 or 7")
+
+#Function
+def add_numbers(x, y):
+    """Add two numbers and return the sum."""
+    return x + y
+
+sum = add_numbers(3, 5)
+print(sum)
+
+#And Operator
+print(1 == 1 and 2 == 2)
+print(1 == 1 and 2 == 3)
+
+#Or Operator
+print(1 == 2 or 1 == 1)
+
+#Boolean Not - takes in only one argument and inverts it
+print(not 1 == 1)
+
+4. WhiteBoard problem example
+5. Instructions to Install Python3  using Homebrew on Mac osx
