@@ -134,3 +134,9 @@ for x in y:
     - Visual Studio Code requires an extension for Python3. You can find that here: https://marketplace.visualstudio.com/items?itemName=ms-python.python
     - Python3 cheatsheet: https://ehmatthes.github.io/pcc/cheatsheets/README.html 
 
+## Teach Back Wednesday, 9/25/19 - Python:
+1. How do you start a server? What file is the server? What does a request look like?
+1. How do you make a GET route? POST?
+
+1. How do you send data back?
+1. How do you connect to postgres (config?) Execute a query?
