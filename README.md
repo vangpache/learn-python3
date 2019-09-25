@@ -92,7 +92,7 @@ for x in y:
         print("Buzz")
         continue
     print(x)
-    ```
+```
 
 ## Instructions to Install Python3  using Homebrew on Mac osx:
 1. Open the terminal and confirm that Homebrew is correctly installed by typing in the command: 
