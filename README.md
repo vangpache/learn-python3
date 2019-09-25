@@ -44,6 +44,7 @@
 2. Objects
 3. Functions and Conditionals
 
+```
 #Conditional Statement
 num = 7
 if num == 5:
@@ -74,6 +75,7 @@ print(1 == 2 or 1 == 1)
 
 #Boolean Not - takes in only one argument and inverts it
 print(not 1 == 1)
+```
 
 4. WhiteBoard problem example
 5. Instructions to Install Python3  using Homebrew on Mac osx
