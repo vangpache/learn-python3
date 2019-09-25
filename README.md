@@ -41,8 +41,8 @@
     mylist.append(6)
     --> mylist = [1, 2, 3, 4, 5, 6]
     ```
-1. Objects
-1. Functions and Conditionals
+## Objects:
+## Functions and Conditionals:
 
 ```
 #Conditional Statement
@@ -77,14 +77,14 @@ print(1 == 2 or 1 == 1)
 print(not 1 == 1)
 ```
 
-1. WhiteBoard problem example
-1. Instructions to Install Python3  using Homebrew on Mac osx
-    1. Open the terminal and confirm that Homebrew is correctly installed by typing in the command: 
+## WhiteBoard problem example:
+## Instructions to Install Python3  using Homebrew on Mac osx:
+1. Open the terminal and confirm that Homebrew is correctly installed by typing in the command: 
     ```
     $ brew doctor
     ```
     If Homebrew is correctly installed the response should be: ```Your system is ready to brew.```
-    1. Install python3 using the command:
+1. Install python3 using the command:
     ```
     $ brew install python3
     ```
@@ -92,7 +92,7 @@ print(not 1 == 1)
     ```
     $ python3 --version
     ```
-    1. To open the Python shell from the command line, type:
+1. To open the Python shell from the command line, type:
     ```
     $ python3
     ```
