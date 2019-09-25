@@ -41,7 +41,6 @@
     mylist.append(6)
     --> mylist = [1, 2, 3, 4, 5, 6]
     ```
-## Objects:
 ## Functions and Conditionals:
 
 ```
