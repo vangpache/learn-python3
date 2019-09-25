@@ -138,14 +138,24 @@ for x in y:
 1. How do you start a server? What file is the server? What does a request look like?
 1. How do you make a GET route? POST?
 ```
+def = keyword defining function
+parse_args will take the arguments you provide on the command line when you run your program and interpret them according to the arguments you have added to your ArgumentParser object
+
+users = [
+    {
+        "name": "Nicolas",
+        "age": 42,
+        "occupation": "Network Engineer"
+    }]
+    
     class User(Resource):
-#def get
+#GET
         def get(self, name):
             for user in users:
                 if(name == user["name"]):
                     return user, 200
             return "User not found", 404
-# def post(self, name):
+#POST
         def post(self, name):
             parser = reqparse.RequestParser()
             parser.add_argument("age")
