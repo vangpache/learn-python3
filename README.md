@@ -5,10 +5,10 @@
 
 ## Data Structures and Loops:
 1. Lists
-    Python3 'lists' are similar to arrays.
-    - indices start at 0
-    - lists are iterated using 'for' and 'while' loops
-    - loops can also use 'else', 'break', 'continue'
+Python3 'lists' are similar to arrays.
+- indices start at 0
+- lists are iterated using 'for' and 'while' loops
+- loops can also use 'else', 'break', 'continue'
 
     *ex: myList = [1, 2, 3, 4, 5]*
     ```
@@ -77,6 +77,23 @@ print(not 1 == 1)
 ```
 
 ## WhiteBoard problem example:
+1. FizzBuzz:
+```
+y = [3, 5, 15, 4]
+
+for x in y:
+    if x % 3 == 0 and x % 5 == 0:
+        print("FizzBuzz")
+        continue
+    elif x % 3 == 0:
+        print("Fizz")
+        continue
+    elif x % 5 == 0: 
+        print("Buzz")
+        continue
+    print(x)
+    ```
+
 ## Instructions to Install Python3  using Homebrew on Mac osx:
 1. Open the terminal and confirm that Homebrew is correctly installed by typing in the command: 
     ```
@@ -97,7 +114,7 @@ print(not 1 == 1)
     ```
     $ python3
     ```
-    
+
 1. Notes:
     - You can also download Python3 here: https://www.python.org/download/releases/3.0/
     - Visual Studio Code requires an extension for Python3. You can find that here: https://marketplace.visualstudio.com/items?itemName=ms-python.python
