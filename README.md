@@ -137,6 +137,32 @@ for x in y:
 ## Teach Back Wednesday, 9/25/19 - Python:
 1. How do you start a server? What file is the server? What does a request look like?
 1. How do you make a GET route? POST?
+```
+    class User(Resource):
+#def get
+        def get(self, name):
+            for user in users:
+                if(name == user["name"]):
+                    return user, 200
+            return "User not found", 404
+# def post(self, name):
+        def post(self, name):
+            parser = reqparse.RequestParser()
+            parser.add_argument("age")
+            parser.add_argument("occupation")
+            args = parser.parse_args()
 
+            for user in users:
+                    if(name == user["name"]):
+                        return "User with name {} already exists".format(name), 400
+
+            user = {
+                "name": name,
+                "age": args["age"],
+                "occupation": args["occupation"]
+            }
+            users.append(user)
+            return user, 201
+```
 1. How do you send data back?
 1. How do you connect to postgres (config?) Execute a query?
