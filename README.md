@@ -77,7 +77,7 @@ print(not 1 == 1)
 ```
 
 ## WhiteBoard problem example:
-1. FizzBuzz:
+#### FizzBuzz:
 ```
 y = [3, 5, 15, 4]
 
