@@ -4,11 +4,11 @@
 1. Write to console
 
 ## Data Structures and Loops:
-1. Lists
-Python3 'lists' are similar to arrays.
-- indices start at 0
-- lists are iterated using 'for' and 'while' loops
-- loops can also use 'else', 'break', 'continue'
+#### Lists
+1. Python3 'lists' are similar to arrays.
+    - indices start at 0
+    - lists are iterated using 'for' and 'while' loops
+    - loops can also use 'else', 'break', 'continue'
 
     *ex: myList = [1, 2, 3, 4, 5]*
     ```
