@@ -21,8 +21,8 @@
 
     *ex: for loop (similar to for of loop)*
     ```
-            for x in mylist:
-                print(x)
+    for x in mylist:
+        print(x)
     ```
     prints: 1, 2, 3, 4, 5
 
@@ -83,6 +83,7 @@ print(not 1 == 1)
     $ brew doctor
     ```
     If Homebrew is correctly installed the response should be: ```Your system is ready to brew.```
+
 1. Install python3 using the command:
     ```
     $ brew install python3
@@ -91,10 +92,12 @@ print(not 1 == 1)
     ```
     $ python3 --version
     ```
+
 1. To open the Python shell from the command line, type:
     ```
     $ python3
     ```
+    
 1. Notes:
     - You can also download Python3 here: https://www.python.org/download/releases/3.0/
     - Visual Studio Code requires an extension for Python3. You can find that here: https://marketplace.visualstudio.com/items?itemName=ms-python.python
